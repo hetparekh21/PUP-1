@@ -5,7 +5,7 @@ def convert(i):
     return int(i)
 
 
-l = {1.12,4.4,9.2,16.1,25.43}
+l = {1.12 , 4.4 , 9.2 , 16.1 , 25.43}
 
 ans = map(convert,l)
 

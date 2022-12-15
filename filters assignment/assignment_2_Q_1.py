@@ -8,6 +8,6 @@ def neg_(i):
 
 l = [-1,2,-3,4,-5,6]
 
-ans = filter(neg_, l)
-
+# ans = filter(neg_, l)
+ans = filter(lambda x: x < 0, l)
 print(list(ans))

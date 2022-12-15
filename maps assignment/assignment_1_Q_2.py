@@ -17,10 +17,10 @@ def even_odd(i):
 
 l = {1,2,3,4,5}
 
-ans = map(even_odd,l)
+ans = map(even_odd,l) 
 
-print(list(ans)) # it doesn't work when this is commented , why ????? 
+print(list(ans))
 
-print(list(even))
+print(even)
 
-print(list(odd))
+print(odd)

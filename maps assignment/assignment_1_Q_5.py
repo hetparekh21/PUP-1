@@ -1,7 +1,6 @@
 # Eliminate duplicate letter from given string
 import re
 
-
 string = ""
 
 def duplicate(i):
